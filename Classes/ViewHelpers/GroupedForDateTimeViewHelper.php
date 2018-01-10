@@ -1,5 +1,5 @@
 <?php
-namespace vendor\NewsEventfields\ViewHelpers;
+namespace Projektkater\NewsGroupedByDate\ViewHelpers;
 
 /*                                                                        *
  * This script belongs to the FLOW3 package "Fluid".                      *
