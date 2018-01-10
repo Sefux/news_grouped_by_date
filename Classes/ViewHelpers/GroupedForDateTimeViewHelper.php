@@ -53,6 +53,14 @@ namespace Projektkater\NewsGroupedByDate\ViewHelpers;
  */
 class GroupedForDateTimeViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper {
 
+    /** 
+    * As this ViewHelper renders HTML, the output must not be escaped. 
+    * @see https://gist.github.com/daKmoR/1287203#gistcomment-2246922
+    * @var bool 
+    */ 
+    
+    protected $escapeOutput = false;
+    
     /**
      * Iterates through elements of $each and renders child nodes
      *
